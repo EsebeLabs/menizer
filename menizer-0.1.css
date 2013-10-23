@@ -1,0 +1,38 @@
+/* resets */
+.menizer, [class^="menizer-"]
+{
+  display: block;
+  width  : 100% ;
+  padding: 0    ;
+  margin : 0    ;
+  border : 0    ; 
+}
+
+.menizer-content-wrapper{
+  display : none;
+  overflow: hidden;
+  width   : 100%;
+}
+
+
+
+.menizer-content{
+  float:left;
+}
+
+.menizer-menu{
+  float: right;
+  height: 100%;
+}
+
+  .menizer-menu-elem{
+    text-indent  : 1.5em   ;
+    text-overflow: ellipsis;
+    margin-top   : 0.5em   ;
+    margin-top   : 0.5em   ;
+    cursor       : pointer ;
+  }
+  
+  .menizer-menu-elem-selected{
+    font-weight: bold;
+  }
